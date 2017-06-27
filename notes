@@ -1,0 +1,52 @@
+Scalable Vector Graphics (SVG) is a standard from World Wide Web Consortium (W3C)
+
+
+Since it is “Scalable”, the viewer can scale the SVG image up and
+ down in size without losing its quality because graphics are defined as
+ numbers instead of pixels. Scaling the image means just multiplying or dividing numbers to define the SVG shapes.
+
+
+The following are points to remember about SVG:
+
+SVG stands for Scalable Vector Graphics.
+SVG is a standard from W3C.
+SVG defines vector based graphics in XML format.
+SVG is intended to display graphics or images over the web.
+SVG supports interactivity and animation.
+SVG images never lose quality, whether it is zoomed out or zoomed in because it is vector based graphics.
+SVG also integrates well with other W3C standards like DOM and XSLT.
+
+
+
+SVG Uses
+
+As it is a vector graphics format, it is most commonly used for the following:
+
+X, Y coordinate system, in other words two-dimensional graphics.
+Pie charts, column charts and other charts.
+Architecture and design diagrams.
+Logos and scalable icons for web.
+
+
+SVG Viewer
+
+SVG is best viewed in Firefox and opera web browsers, but Internet Explorer needs an SVG viewer plugin installation for viewing SVG
+
+
+SVG disadvantages
+
+Size can be big even for smaller images.
+Is not supported in all browsers.
+Size of text format is larger than binary formatted raster images.
+
+
+Embed your SVG XML directly into HTML pages:
+
+The <svg> tag is used to indicate the start of a SVG image.
+The <svg> tag's width and height defines the width and height of the SVG image.
+The <circle>, <rect>, <ellipse> and so on tags are used to draw various shapes.
+X and Y represents the centre of the shapes and the default value is (0, 0) and also use the “r” attribute for radius in case of a circle.
+Stroke and stroke-width controls the outlining of shapes.
+Fill attribute defines the fill colour of the shapes.
+The </svg> indicates closing or ending of SVG image.
+Since there are XML files, all the elements should be properly closed.

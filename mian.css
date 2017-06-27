@@ -1,0 +1,33 @@
+.actions {
+   display: block;
+   overflow: auto;
+}
+
+.actions a {
+   background-image: url('sprite.png');
+   background-repeat: no-repeat;
+   background-color: #ccc;
+   border-radius: 5px;
+   display: block;
+   float: left;
+   color: #444;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 20px;
+   text-decoration: none;
+   text-shadow: 0 -1px 2px #fff;
+   padding: 10px 20px 10px 40px;
+   margin-right: 5px;
+}
+
+.a-share  { background-position: 10px 0; }
+.a-print  { background-position: 10px -40px; }
+.a-tag    { background-position: 10px -80px; }
+.a-delete { background-position: 10px -120px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2)  {
+   .actions a {
+      background-image: url('sprite@2x.png');
+      background-size: 30px 160px;
+   }
+}
