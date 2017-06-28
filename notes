@@ -1,5 +1,8 @@
 Scalable Vector Graphics (SVG) is a standard from World Wide Web Consortium (W3C)
 
+What does W3C do?
+W3C's primary activity is to develop protocols and guidelines that ensure long-term growth for the Web. W3C's standards define key parts of what makes the World Wide Web work
+
 
 Since it is “Scalable”, the viewer can scale the SVG image up and
  down in size without losing its quality because graphics are defined as
@@ -50,3 +53,9 @@ Stroke and stroke-width controls the outlining of shapes.
 Fill attribute defines the fill colour of the shapes.
 The </svg> indicates closing or ending of SVG image.
 Since there are XML files, all the elements should be properly closed.
+
+
+
+Assignment
+
+1. Implement an image version of what we have done using svg
